@@ -14,7 +14,7 @@ const [message,setMessage] = useState('')
             navigate('/login')
         }
         else{
-            axios.get('http://localhost:8888/pages/dashboard', 
+            axios.get('https://credapi.akshatmehta.com/pages/dashboard', 
             {headers:{
                 authorization: `Bearer ${token}`,
             },
