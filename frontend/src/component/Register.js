@@ -9,7 +9,7 @@ const Register = () => {
 
   const handleRegister = () => {
     try {
-      const response = axios.post("http://localhost:8888/pages/register", { email, password })
+      const response = axios.post("https://credapi.akshatmehta.com/pages/register", { email, password })
       
         .then((res) => {
           console.log(res.data, "register data");
